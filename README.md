@@ -46,7 +46,6 @@ Query & Response: Users submit queries, and the system retrieves relevant code c
 
 #### Example Response
 Query: "What does the download_hugging_face_embeddings function do?"
-
 LLM Response:
 "The download_hugging_face_embeddings function initializes and returns embeddings using the Hugging Face model sentence-transformers/all-MiniLM-L6-v2, which generates 384-dimensional embeddings. These embeddings are used to create vector representations of text data for further analysis."
 
