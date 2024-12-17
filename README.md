@@ -37,16 +37,16 @@ ChromaDB: Vector database for efficient embedding storage and retrieval.
 - langchain.memory: For managing conversational memory.
 
 ## How It Works Example Query Flow
-**Repository Upload**: User provides a GitHub repository link.
-**Code Extraction**: The repository is cloned, and Python files are extracted.
-**Code Chunking**: Files are split into manageable code chunks using the RecursiveCharacterTextSplitter.
-**Embedding Generation**: Code chunks are embedded using OpenAIEmbeddings.
-**Data Storage**: Embeddings are stored in ChromaDB for efficient search and retrieval. with LangChain, LLM, and ChromaDB
-**Query & Response**: Users submit queries, and the system retrieves relevant code chunks and generates responses using LLM-powered models.
+- **Repository Upload**: User provides a GitHub repository link.
+- **Code Extraction**: The repository is cloned, and Python files are extracted.
+- **Code Chunking**: Files are split into manageable code chunks using the RecursiveCharacterTextSplitter.
+- **Embedding Generation**: Code chunks are embedded using OpenAIEmbeddings.
+- **Data Storage**: Embeddings are stored in ChromaDB for efficient search and retrieval. with LangChain, LLM, and ChromaDB
+- **Query & Response**: Users submit queries, and the system retrieves relevant code chunks and generates responses using LLM-powered models.
 
 #### Example Response
-**Query**: "What does the download_hugging_face_embeddings function do?"
-**LLM Response**:"The download_hugging_face_embeddings function initializes and returns embeddings using the Hugging Face model sentence-transformers/all-MiniLM-L6-v2, which generates 384-dimensional embeddings. These embeddings are used to create vector representations of text data for further analysis."
+- **Query**: "What does the download_hugging_face_embeddings function do?"
+- **LLM Response**:"The download_hugging_face_embeddings function initializes and returns embeddings using the Hugging Face model sentence-transformers/all-MiniLM-L6-v2, which generates 384-dimensional embeddings. These embeddings are used to create vector representations of text data for further analysis."
 
 
 ## Data Sources
