@@ -10,7 +10,7 @@ os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 
 
 
-# url = "https://github.com/entbappy/End-to-end-Medical-Chatbot-Generative-AI"
+# url = "https://github.com/SHINU4RATHOD/Medical-Chatbot-LLM-Pinecone-LangChain"
 
 # repo_ingestion(url)
 
