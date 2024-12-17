@@ -4,7 +4,9 @@ from langchain.document_loaders.generic import GenericLoader
 from langchain.document_loaders.parsers import LanguageParser
 from langchain.text_splitter import Language
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.embeddings.openai import OpenAIEmbeddings
+# from langchain.embeddings.openai import OpenAIEmbeddings
+from langchain.embeddings import HuggingFaceEmbeddings
+
 
 
 #clone any github repositories 
@@ -43,7 +45,13 @@ def text_splitter(documents):
 
 
 
-#loading embeddings model
-def load_embedding():
-    embeddings=OpenAIEmbeddings(disallowed_special=())
+# #loading embeddings model
+# def load_embedding():
+#     embeddings=OpenAIEmbeddings(disallowed_special=())
+#     return embeddings
+
+
+#Download the Embeddings from HuggingFace 
+def download_hugging_face_embeddings():
+    embeddings=HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2')  #this model return 384 dimensions
     return embeddings
