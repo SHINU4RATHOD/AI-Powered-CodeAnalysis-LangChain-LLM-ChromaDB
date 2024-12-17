@@ -26,7 +26,7 @@ ChromaDB: Vector database for efficient embedding storage and retrieval.
 - GPT 3
 - ChoromaDB
 
-* Python Libraries:
+#### Python Libraries:
  - git: For cloning repositories.
 - langchain.text_splitter: For chunking code.
 - langchain.document_loaders.generic: For loading documents.
