@@ -27,14 +27,14 @@ ChromaDB: Vector database for efficient embedding storage and retrieval.
 - ChoromaDB
 
 * Python Libraries:
-git: For cloning repositories.
-langchain.text_splitter: For chunking code.
-langchain.document_loaders.generic: For loading documents.
-langchain.document_loaders.parsers: For parsing source code.
-langchain.embeddings.openai: For generating embeddings.
-langchain.vectorstores: For connecting to ChromaDB.
-langchain.chat_models: For chat-based models.
-langchain.memory: For managing conversational memory.
+ - git: For cloning repositories.
+- langchain.text_splitter: For chunking code.
+- langchain.document_loaders.generic: For loading documents.
+- langchain.document_loaders.parsers: For parsing source code.
+- langchain.embeddings.openai: For generating embeddings.
+- langchain.vectorstores: For connecting to ChromaDB.
+- langchain.chat_models: For chat-based models.
+- langchain.memory: For managing conversational memory.
 
 ## How It Works Example Query Flow
 Repository Upload: User provides a GitHub repository link.
