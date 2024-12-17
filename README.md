@@ -1,4 +1,5 @@
 # End-to-end-Source-Code-Analysis-Generative-AI
+![Alt text](image.png)
 
 # How to run?
 ### STEPS:
